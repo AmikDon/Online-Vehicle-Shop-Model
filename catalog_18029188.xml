@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="catalog_18029188.css"?>
+<onlineShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18029188.xsd">
+	<shop>
+		<name>NY Vehicle Shop</name>
+		<address>New York</address>
+		<telephone>+1 914-969-99999</telephone>
+		<email>nyvehicle_shop@gmail.com</email>
+		<logo/>
+	</shop>
+
+	<welcome> Welcome to NY Vehicle Shop
+		<brands> Available Brands
+			<Left>Toyota</Left>
+			<Left>Mazda</Left>
+			<Left>Audi</Left>
+			<Left>Ford</Left>
+			<Right>BMW</Right>
+			<Right>Chrysler</Right>
+			<Right>Lexus</Right>
+		</brands>
+	</welcome>
+
+	<vehicles>
+		<vehicle type = "suv">
+			<info>
+				<itemNo>1</itemNo>
+				<name>2020 Toyota Highlander</name>
+				<type>Type: SUV</type>
+				<quantity>Quantity: 3</quantity>
+				<price>Price: $35,720</price>
+				<color>Color: Moon Dust, Blizzard Pearl, Magnetic Grey Metallic</color>
+				<description>With a fresh redesign for 2020, the Toyota Highlander is one of the strongest competitors in the three-row SUV segment. It has a more stylish exterior and better fuel economy, with more technical features and better cargo capacity. The Highlander has its comfort, refinement, and dependable reputation. With its steady improvements, the Toyota Highlander stays near the front of the pack even with high competitors. The Toyota Highlander is a 7-seater vehicle. The most popular style is the XLE AWD, which comes with a 3.5L V6 engine and All Wheel Drive. This Highlander has 36 MPG in the city and 35 MPG on the highway.</description>
+				<image1/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Hybrid"> Engine Details			
+						<horsePower>Horsepower: 243 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 6000 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 4400 rpm</torqueRpm>
+						<ecoMode>Eco Mode: Included</ecoMode>
+						<sportMode>Sport Mode: Included</sportMode>
+					</engineDetail>
+					<interior ambientLighting = "yes" frontSeatType = "Bucket" secondRowSeatType = "Captain" thirdRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<rearHeatedSeats>Rear Heated Seats: Multi-Level</rearHeatedSeats>
+						<frontCooledSeats>Front Cooled Seats: Multi-Level</frontCooledSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+						<doorTrim>Door Trim: Leather and Wood</doorTrim>
+						<interiorTrim>Interior Trim: Metal and Wood</interiorTrim>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<roofrails>Roof Rails: Included</roofrails>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front and Rear</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Active Warning</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<parkingSensors>Parking Sensors: Front and Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front, Rear and 3rd Row</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+						<pedestrianDetection>Pedestrian Detection: Included</pedestrianDetection>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+		
+		<vehicle type = "sedan">
+			<info>
+				<itemNo>2</itemNo>
+				<name>2020 Mazda Mazda3</name>
+				<type>Type: Sedan</type>
+				<quantity>Quantity: 2</quantity>
+				<price>$22,445</price>
+				<color>Color: Red, Black</color>
+				<description>The Mazda Mazda3 is a compact car with the soul of a sports car. The Mazda3 is available as a sedan or hatchback. The Mazda3 offers refinement and fuel efficiency. It has driver safety aids like lane-keep assist and adaptive cruise control. It was redesigned in 2019 and is in its fourth generation. It is a 5-seater vehicle that comes in 4 trim levels. The most popular style is the Select Package 4-Door FWD Automatic. It starts at $23,645 and comes with a 2.5L I4 engine and Front Wheel Drive. This Mazda3 has 27 MPG in the city and 36 MPG on the highway.</description>
+				<image2/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Gas">	Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>			
+						<horsePower>Horsepower: 186 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 6000 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 4000 rpm</torqueRpm>
+						<sportMode>Sport Mode: Included</sportMode>
+					</engineDetail>
+					<interior frontSeatType = "Sport" secondRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat Material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+						<doorTrim>Door Trim: Leatherette</doorTrim>
+						<interiorTrim>Interior Trim: Plastic</interiorTrim>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<moonRoof>Moon Roof: Power</moonRoof>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "hatchback">
+			<info>
+				<itemNo>3</itemNo>
+				<name>2020 Toyota Prius Prime</name>
+				<type>Type: Hatchback</type>
+				<quantity>Quantity: 2</quantity>
+				<price>$28,855</price>
+				<color>Color: Supersonic Red, Blue Magnetism</color>
+				<description>The Toyota Prius Prime is a five-door hybrid vehicle. It is meant for people who want more ways to save fuel. It was debuted in 2017. The Prius Prime is the plug-in version. It allows its battery to be recharged at a charging station or home. It comes with more conventional exterior styling, and more premium interior. The Toyota Prius Prime is a 5-seater vehicle and comes in 3 trim levels. The most popular style is the XLE. It starts at $30,755 and comes with a Plug-In 1.8L I4 engine and Front Wheel Drive. It has 55 MPG in the city and 53 MPG on the highway.</description>
+				<image3/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Plug-In"> Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>			
+						<horsePower>Horsepower: 121 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 5200 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 3600 rpm</torqueRpm>
+						<ecoMode>Eco Mode: Included</ecoMode>
+						<sportMode>Sport Mode: Included</sportMode>
+					</engineDetail>
+					<interior ambientLighting = "yes" frontSeatType = "Bucket" secondRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leatherette and Cloth</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+						<doorTrim>Door Trim: Leatherette</doorTrim>
+						<interiorTrim>Interior Trim: Plastic</interiorTrim>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<roofrails>Roof Rails: Included</roofrails>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front and Rear</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Active Warning</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<parkingSensors>Parking Sensors: Front and Rear</parkingSensors>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+		
+		<vehicle type = "coupe">
+			<info>
+				<itemNo>4</itemNo>
+				<name>2020 Audi A5</name>
+				<type>Type: Coupe</type>
+				<quantity>Quantity: 1</quantity>
+				<price>$43,895</price>
+				<color>Color: Green</color>
+				<description> The Audi A5 lineup has a mix of style, usefulness, and fun. It is a car, a convertible, or a four-entryway hatchback. It has turbocharged motor and standard all-wheel-drive. Despite the fact that the A5 line has been around since 2008, the subsequent age started with the 2018 model year and included the new Sportback variation. The Audi A5 is a 4-seater vehicle that comes in 3 trim levels. The most famous style is the Premium Plus Coupe, which begins at $43,895 and accompanies a 2.0L I4 Turbo motor and All Wheel Drive. This A5 is evaluated to convey 24 MPG in the city and 32 MPG on the thruway.</description>
+				<image4/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Gas"> Engine Details
+						<fuelType>Fuel Type: Premium Unleaded</fuelType>			
+						<horsePower>Horsepower: 248 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 5000 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 1600 rpm</torqueRpm>
+						<aspiration>Aspiration: Turbocharged</aspiration>
+					</engineDetail>
+					<interior ambientLighting = "Adjustable" frontSeatType = "Bucket" secondRowSeatType = "Bucket"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+						<interiorTrim>Interior Trim: Wood</interiorTrim>
+					</interior>
+					<exterior foldingSideMirrors = "Power"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<moonRoof>Moonroof: Power</moonRoof>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Ventilated Disc</rearBrakes>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<parkingSensors>Parking Sensors: Front and Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "truck">
+			<info>
+				<itemNo>5</itemNo>
+				<name>2020 Ford Ranger</name>
+				<type>Type: Truck</type>
+				<quantity>Quantity: 3</quantity>
+				<price>$25,605</price>
+				<color>Color: White, Red, Black</color>
+				<description> Following a nearly decade-long rest, the Ford Ranger came back to the commercial center for 2019. As of now, in its fourth era, this medium size pickup situates up to five and dazzles with vigorous towing and accessible dynamic security highlights. Sold in broadened taxi (SuperCab) and group taxi (SuperCrew) arrangements, the Ranger SuperCab accompanies a 6-foot load bed, and a 5-foot payload bed is standard with SuperCrew models. The Ford Ranger is a 4-seater vehicle that comes in 3 trim levels. The most famous style is the XLT 4WD SuperCrew 5' Box, which begins at $35,830 and accompanies a 2.3L I4 Turbo motor and Four Wheel Drive. This Ranger is assessed to convey 21 MPG in the city and 26 MPG on the expressway.</description>
+				<image5/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Gas"> Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>			
+						<horsePower>Horsepower: 270 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 5500 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 3000 rpm</torqueRpm>
+						<aspiration>Aspiration: Turbocharged</aspiration>
+					</engineDetail>
+					<interior ambientLighting = "Adjustable" frontSeatType = "Bucket" secondRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+					</interior>
+					<exterior foldingSideMirrors = "Power"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: Standard</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Variable Intermittent</windshieldWipers>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<parkingSensors>Parking Sensors: Front and Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<pedestrianDetection>Pedestrian Detection: Included</pedestrianDetection>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "convertible">
+			<info>
+				<itemNo>6</itemNo>
+				<name>2020 BMW 4 Series</name>
+				<type>Type: Convertible</type>
+				<quantity>Quantity: 2</quantity>
+				<price>$45,745</price>
+				<color>Color: Grey, Black</color>
+				<description> The BMW 4 Series is a minimal extravagance car offering an extreme BMW driving experience yet keeping up solace and usefulness for day by day driving. Offered in car, gran car, and convertible forms, the 4 Series is accessible in a wide scope of construct blends prepared to suit your necessities. The BMW 4 Series is a 4-seater vehicle that comes in 2 trim levels. The most well known style is the 430i Convertible RWD, which begins at $54,095 and accompanies a 2.0L I4 Turbo motor and Rear Wheel Drive. This 4 Series is assessed to convey 23 MPG in the city and 34 MPG on the interstate.</description>
+				<image6/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Gas"> Engine Details
+						<fuelType>Fuel Type: Premium Unleaded</fuelType>			
+						<horsePower>Horsepower: 248 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 5200 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 1450 rpm</torqueRpm>
+						<ecoMode>Eco Mode: Included</ecoMode>
+						<sportMode>Sport Mode: Included</sportMode>
+						<aspiration>Aspiration: Turbocharged</aspiration>
+					</engineDetail>
+					<interior ambientLighting = "Adjustable" frontSeatType = "Sport" secondRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leatherette</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+						<interiorTrim>Interior Trim: Wood</interiorTrim>
+					</interior>
+					<exterior foldingSideMirrors = "Power"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<convertibleRoof>Convertible Roof: Hard Top</convertibleRoof>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Ventilated Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<parkingSensors>Parking Sensors: Front and Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+						<pedestrianDetection>Pedestrian Detection: Included</pedestrianDetection>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "van">
+			<info>
+				<itemNo>7</itemNo>
+				<name>2020 Chrysler Pacifica</name>
+				<type>Type: Van</type>
+				<quantity>Quantity: 3</quantity>
+				<price>$35,540</price>
+				<color>Color: Grey, Blue, Black</color>
+				<description> The Chrysler Pacifica is a minivan made for families and those requiring additional seating. The Pacifica is likewise accessible as a half breed, making it one of the main vans accessible with the fuel-sparing innovation. Chrysler styled the Pacifica to have an advanced and upscale plan, with a breezy inside and numerous helpful highlights. Among minivans, the 2020 Pacifica plans to give a particularly upmarket encounter. The Chrysler Pacifica is a 7-seater vehicle that comes in 14 trim levels. The most famous style is the Touring, which begins at $35,540 and accompanies a 3.6L V6 motor and Front Wheel Drive. This Pacifica is assessed to convey 29 MPG in the city and 30 MPG on the interstate.</description>
+				<image7/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Plug-In"> Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>		
+						<horsePower>Horsepower: 260 hp</horsePower>
+					</engineDetail>
+					<interior ambientLighting = "yes" frontSeatType = "Bucket" secondRowSeatType = "Bucket" thirdRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: Halogen</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Variable Intermittent</windshieldWipers>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<parkingSensors>Parking Sensors: Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front, Rear and 3rd Row</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "suv">
+			<info>
+				<itemNo>8</itemNo>
+				<name>2020 Ford Escape</name>
+				<type>Type: SUV</type>
+				<quantity>Quantity: 3</quantity>
+				<price>$26,130</price>
+				<color>Color: Green, Red, Black</color>
+				<description> The Escape is Ford's minimal SUV, and it has been updated for the 2020 model year. Comparative with the active model, the 2020 Escape offers improved force and new plan signals. Likewise, the mixture variation returns after a break, and a module cross breed joins the lineup. The Escape flaunts a smooth tasteful both all around, and it's sufficiently roomy to fill in as handy family transportation. The Ford Escape is a 5-seater vehicle that comes in 6 trim levels. The most mainstream style is the SE FWD, which begins at $28,350 and accompanies a 1.5L I3 Turbo motor and Front Wheel Drive. This Escape is assessed to convey 44 MPG in the city and 37 MPG on the roadway.</description>
+				<image8/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Plug-In"> Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>		
+						<horsePower>Horsepower: 260 hp</horsePower>
+					</engineDetail>
+					<interior ambientLighting = "yes" frontSeatType = "Bucket" secondRowSeatType = "Bucket" thirdRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: Halogen</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<fogLamps>Fog Lamps: Included</fogLamps>
+						<windshieldWipers>Wind Shield Wipers: Variable Intermittent</windshieldWipers>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<parkingSensors>Parking Sensors: Rear</parkingSensors>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front, Rear and 3rd Row</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "sedan">
+			<info>
+				<itemNo>9</itemNo>
+				<name>2020 Lexus ES</name>
+				<type>Type: Sedan</type>
+				<quantity>Quantity: 2</quantity>
+				<price>$40,925</price>
+				<color>Color: White, Green</color>
+				<description> The Lexus ES is a medium size extravagance car focused on purchasers searching for a sensibly reasonable, top notch vehicle. Lexus first presented it for the 1992 model year. From that point forward, the ES has experienced seven ages of creation with the seventh beginning with the 2019 model year. Its extravagant, calm driving experience is equivalent to increasingly costly cars, and it offers a crossover powertrain that gets amazing efficiency. The Lexus ES is a 5-seater vehicle that comes in 7 trim levels. The most mainstream style is the ES 350, which begins at $40,925 and accompanies a 3.5L V6 motor and Front Wheel Drive. This ES is evaluated to convey 43 MPG in the city and 44 MPG on the parkway.</description>
+				<image9/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Hybrid"> Engine Details
+						<fuelType>Fuel Type: Regular Unleaded</fuelType>		
+						<horsePower>Horsepower: 215 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 5700 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 3600 rpm</torqueRpm>
+					</engineDetail>
+					<interior frontSeatType = "Bucket" secondRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leatherette</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+					</interior>
+					<exterior foldingSideMirrors = "Manual"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<windshieldWipers>Wind Shield Wipers: Variable Intermittent</windshieldWipers>
+						<moonRoof>Moonroof: Power</moonRoof>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Disc</rearBrakes>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Monitor</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+
+		<vehicle type = "coupe">
+			<info>
+				<itemNo>10</itemNo>
+				<name>2020 Lexus LC</name>
+				<type>Type: Coupe</type>
+				<quantity>Quantity: 2</quantity>
+				<price>$93,975</price>
+				<color>Color: Green, Red</color>
+				<description> Lexus is known for building extravagance vehicles, not sports vehicles, however the Lexus LC is a very good quality car that offsets extravagance with speed to rival the best in its group. Lodge quality is great, and Lexus pervades the LC with a variety of innovation to improve execution, solace, and comfort. There are a couple of shaky areas, similar to a little rearward sitting arrangement, yet by and large the LC is one of the chief extravagance cars available. The Lexus LC is a 4-seater vehicle that comes in 2 trim levels. The most mainstream style is the LC 500, which begins at $93,975 and accompanies a 5.0L V8 motor and Rear Wheel Drive. This LC is evaluated to convey 27 MPG in the city and 35 MPG on the roadway.</description>
+				<image10/>
+			</info>
+			<detailInfo>
+				<left>
+					<engineDetail type = "Hybrid"> Engine Details			
+						<fuelType>Fuel Type: Premium Unleaded</fuelType>
+						<horsePower>Horsepower: 354 hp</horsePower>
+						<horsePowerRpm>Horsepower RPM: 6600 rpm</horsePowerRpm>
+						<torqueRpm>Torque RPM: 4900 rpm</torqueRpm>
+					</engineDetail>
+					<interior frontSeatType = "Bucket" secondRowSeatType = "Captain" thirdRowSeatType = "Bench"> Interior
+						<seatMaterial>Seat material: Leather</seatMaterial>
+						<automaticPowerWindows>Automatic Power Windows: Front and Rear</automaticPowerWindows>
+						<frontHeatedSeats>Front Heated Seats: Multi-Level</frontHeatedSeats>
+						<frontCooledSeats>Front Cooled Seats: Multi-Level</frontCooledSeats>
+						<powerWindows>Power Windows: Included</powerWindows>
+						<powerLocks>Power Locks: Included</powerLocks>
+					</interior>
+					<exterior foldingSideMirrors = "Power"> Exterior
+						<headLampType>Head Lamp Type: LED</headLampType>
+						<tailLampType>Tail Lamp Type: LED</tailLampType>
+						<windshieldWipers>Wind Shield Wipers: Rain Sensing</windshieldWipers>
+						<moonRoof>Moonroof: Fixed</moonRoof>
+					</exterior>
+				</left>
+				<right>
+					<performance> Performance
+						<frontBrakes>Front Brakes: Ventilated Disc</frontBrakes>
+						<rearBrakes>Rear Brakes: Ventilated Disc</rearBrakes>
+						<stabilizerBar>Stabilizer: Front and Rear</stabilizerBar>
+					</performance>
+					<safety> Safety
+						<brakeAssist>Brake Assist: Included</brakeAssist>
+						<automaticBraking>Automatic Braking: Included</automaticBraking>
+						<blindSpotSystem>Blind Spot System: Active Warning</blindSpotSystem>
+						<forwardCollisionWarning>Forward Collision Warning: Active</forwardCollisionWarning>
+						<alarm>Alarm: Included</alarm>
+						<tractionControl>Traction Control: Included</tractionControl>
+						<stabilityControl>Stability Control: Included</stabilityControl>
+						<sideAirBags>Side Air Bags: Front</sideAirBags>
+						<curtainAirBags>Curtain Air Bags: Front and Rear</curtainAirBags>
+						<kneeAirBags>Knee Air Bags: Included</kneeAirBags>
+					</safety>
+				</right>
+			</detailInfo>
+		</vehicle>
+	</vehicles>
+
+	<footer>
+		<name>NY Vehicle Shop</name>
+		<address>New York</address>
+		<telephone>+1 914-969-99999</telephone>
+		<email>nyvehicle_shop@gmail.com</email>
+		<logo/>
+	</footer>
+</onlineShop>

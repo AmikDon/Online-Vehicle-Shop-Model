@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="onlineShop">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="shop">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="address" type="xs:string"/>
+							<xs:element name="telephone" type="xs:string"/>
+							<xs:element name="email" type="xs:string"/>
+							<xs:element name="logo" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="welcome">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="brands">
+								<xs:complexType mixed="true">
+									<xs:sequence>
+										<xs:element name="Left" type="xs:string" minOccurs="1" maxOccurs="4"/>
+										<xs:element name="Right" type="xs:string" minOccurs="1" maxOccurs="4"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+
+				<xs:element name="vehicles">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="vehicle" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="info">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="itemNo" type="xs:integer"/>
+													<xs:element name="name" type="xs:string"/>
+													<xs:element name="type" type="xs:string"/>
+													<xs:element name="quantity" type="xs:string"/>
+													<xs:element name="price" type="xs:string"/>
+													<xs:element name="color" type="xs:string"/>
+													<xs:element name="description" type="xs:string"/>
+													<xs:element name="image1" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image2" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image3" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image4" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image5" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image6" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image7" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image8" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image9" minOccurs="0" maxOccurs="1"/>
+													<xs:element name="image10" minOccurs="0" maxOccurs="1"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="detailInfo">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="left">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="engineDetail">
+																	<xs:complexType mixed="true">
+																		<xs:sequence>
+																			<xs:element name="fuelType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="horsePower" type="xs:string"/>
+																			<xs:element name="horsePowerRpm" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="torqueRpm" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="ecoMode" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="sportMode" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="aspiration" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																		<xs:attribute name="type" type="xs:string" use="required"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="interior">
+																	<xs:complexType mixed="true">
+																		<xs:sequence>
+																			<xs:element name="seatMaterial" type="xs:string"/>
+																			<xs:element name="automaticPowerWindows" type="xs:string"/>
+																			<xs:element name="frontHeatedSeats" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="rearHeatedSeats" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="frontCooledSeats" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="powerWindows" type="xs:string"/>
+																			<xs:element name="powerLocks" type="xs:string"/>
+																			<xs:element name="doorTrim" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="interiorTrim" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																		<xs:attribute name="ambientLighting" type="xs:string" use="optional"/>
+																		<xs:attribute name="frontSeatType" type="xs:string" use="required"/>
+																		<xs:attribute name="secondRowSeatType" type="xs:string" use="required"/>
+																		<xs:attribute name="thirdRowSeatType" type="xs:string" use="optional"/>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="exterior">
+																	<xs:complexType mixed="true">
+																		<xs:sequence>
+																			<xs:element name="headLampType" type="xs:string"/>
+																			<xs:element name="tailLampType" type="xs:string"/>
+																			<xs:element name="fogLamps" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="windshieldWipers" type="xs:string"/>
+																			<xs:element name="convertibleRoof" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="roofrails" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="moonRoof" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																		<xs:attribute name="foldingSideMirrors" type="xs:string" use="required"/>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="right">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="performance">
+																	<xs:complexType mixed="true">
+																		<xs:sequence>
+																			<xs:element name="frontBrakes" type="xs:string"/>
+																			<xs:element name="rearBrakes" type="xs:string"/>
+																			<xs:element name="stabilizerBar" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="safety">
+																	<xs:complexType mixed="true">
+																		<xs:sequence>
+																			<xs:element name="brakeAssist" type="xs:string" maxOccurs="1"/>
+																			<xs:element name="automaticBraking" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="blindSpotSystem" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="forwardCollisionWarning" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="parkingSensors" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="alarm" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="tractionControl" type="xs:string" maxOccurs="1"/>
+																			<xs:element name="stabilityControl" type="xs:string" maxOccurs="1"/>
+																			<xs:element name="sideAirBags" type="xs:string" maxOccurs="1"/>
+																			<xs:element name="curtainAirBags" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="kneeAirBags" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																			<xs:element name="pedestrianDetection" type="xs:string" minOccurs="0" maxOccurs="1"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="type" type="xs:string" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="footer">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="address" type="xs:string"/>
+							<xs:element name="telephone" type="xs:string"/>
+							<xs:element name="email" type="xs:string"/>
+							<xs:element name="logo" minOccurs="0" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
